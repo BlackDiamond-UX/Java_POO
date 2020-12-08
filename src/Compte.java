@@ -6,7 +6,7 @@ public class Compte {
 
 
 
-    public  double  calculerInterer(double tauxInteret) {  //ex4
+    public  double  calculerInterer(double tauxInteret) {
 
         double SoldInteret=sold*tauxInteret/100;
         return SoldInteret;
