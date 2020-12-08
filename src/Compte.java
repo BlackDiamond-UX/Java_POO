@@ -5,7 +5,7 @@ public class Compte {
 
 
 
-//exercice4
+
     public  double  calculerInterer(double tauxInteret) {
 
         double SoldInteret=sold*tauxInteret/100;
