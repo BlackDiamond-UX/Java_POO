@@ -1,22 +1,6 @@
-public class Compte {
-    String nom;
-    String Adresse;
-    double sold;
+package com.youcode.ext3;
 
-
-
-
-    public  double  calculerInterer(double tauxInteret) {
-
-        double SoldInteret=sold*tauxInteret/100;
-        return SoldInteret;
-
-    }
-
-    public void  afficherInfosSolde () {
-        System.out.println(nom+" habite à "+Adresse+" - infos solde "+sold+" DH"+" et intérêts "+calculerInterer(7));
-    }
-
+public class test {
     public static void main(String[] args) {
 
         Compte client1=new Compte();
@@ -32,5 +16,4 @@ public class Compte {
         client2. afficherInfosSolde();
 
     }
-
 }

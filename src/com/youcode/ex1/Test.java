@@ -1,16 +1,6 @@
-public class Chien2 {
+package com.youcode.ex1;
 
-
-    String nom;
-    void aboyer(String first) {
-        System.out.println(nom+" "+first);
-    }
-
-    void mange(String second ) {
-        System.out.println(nom+" "+second);
-    }
-
-
+public class Test {
     public static void main(String[] args) {
 
         Chien2 Rex=new Chien2();
